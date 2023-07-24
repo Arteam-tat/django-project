@@ -55,7 +55,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'netology_models_list',
-        'HOST': '127.0.0.1',
+        'USER': 'postgres',
+        'PASSWORD': 'Pg19cska114',
         'PORT': '5432',
     }
 }
